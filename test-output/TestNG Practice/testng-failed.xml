@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG Practice]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="ExtentListener.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="Open Account(failed)">
+    <classes>
+      <class name="TestCase.openAccount">
+        <methods>
+          <include name="openaccounts" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestCase.openAccount -->
+    </classes>
+  </test> <!-- Open Account(failed) -->
+</suite> <!-- Failed suite [TestNG Practice] -->

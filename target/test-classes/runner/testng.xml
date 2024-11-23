@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNG Practice">
+	
+	
+	<listeners>
+		<listener class-name="ExtentListener.ExtentListeners" />
+	</listeners>
+	
+	<test name="Bank Manager Login">
+    <classes>
+      <class name="TestCase.bankManagerLogin"/>
+    </classes>
+  </test> <!-- Test -->
+	
+	 <test name="Add Customers">
+    <classes>
+      <class name="TestCase.addCustomer"/>
+    </classes>
+  </test> <!-- Test -->
+	
+	<test name="Open Account">
+    <classes>
+      <class name="TestCase.openAccount"/>
+    </classes>
+  </test> <!-- Test -->
+	
+  
+ 
+   
+  
+</suite> <!-- Suite -->
